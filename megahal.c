@@ -284,7 +284,7 @@ static void capitalize(char *);
 static void changevoice(DICTIONARY *, int);
 static void change_personality(DICTIONARY *, unsigned int, MODEL **);
 static void delay(char *);
-static void die(int);
+// static void die(int);
 static bool dissimilar(DICTIONARY *, DICTIONARY *);
 static void error(char *, char *, ...);
 static float evaluate_reply(MODEL *, DICTIONARY *, DICTIONARY *);
@@ -2933,11 +2933,11 @@ void ignore(int sig)
  *
  *		Purpose:		Log the occurrence of a signal, and exit.
  */
-void die(int sig)
-{
-    error("die", "MegaHAL received signal %d", sig);
-    exithal();
-}
+// void die(int sig)
+// {
+//     error("die", "MegaHAL received signal %d", sig);
+//     exithal();
+// }
 
 /*---------------------------------------------------------------------------*/
 
