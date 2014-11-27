@@ -49,7 +49,7 @@ static struct PyMethodDef mh_methods[] = {
     {NULL, NULL, 0, NULL} /* Sentinel */
 };
 
-void initmh_python()
+void initmh_python(void)
 {
     Py_InitModule("mh_python", mh_methods);
 
