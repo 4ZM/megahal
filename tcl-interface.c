@@ -1,7 +1,7 @@
 /* $Id: tcl-interface.c,v 1.6 2004/01/13 10:59:20 lfousse Exp $ */
 /* MegHAL Tcl interface, by David N. Welton <davidw@dedasys.com> */
 
-#include <tcl.h>
+#include <tcl/tcl.h>
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
